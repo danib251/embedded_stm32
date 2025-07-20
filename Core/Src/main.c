@@ -106,6 +106,7 @@ int main(void)
 
   I2C_Scan();
   //Nomral static Printing
+  printf("Escaneando dispositivos I2C...\r\n");
   HD44780_Init(2);
   HD44780_Clear();
   HD44780_Backlight();
